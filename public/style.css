@@ -1,0 +1,101 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    display: inline;
+  }
+  
+  header nav {
+    display: inline;
+    float: right;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .posts {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .posts li {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+  
+  .alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .alert.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .errors {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 1rem;
+    list-style: none;
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
